@@ -1,0 +1,26 @@
+{
+  "name": "tigerpython-parser",
+  "version": "1.0.0",
+  "description": "Enhanced error recognition in Python ",
+  "main": "tpParser/js/target/scala-2.12/tigerpython-parser-opt.js",
+  "types": "tpParser/js/types/index.d.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sbt fullOptJS",
+    "fast-build": "sbt fastOptJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobias-Kohn/TigerPython-Parser.git"
+  },
+  "author": "Tobias Kohn",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Tobias-Kohn/TigerPython-Parser/issues"
+  },
+  "homepage": "https://github.com/Tobias-Kohn/TigerPython-Parser#readme",
+  "dependencies": {}
+}
